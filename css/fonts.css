@@ -1,8 +1,20 @@
 @font-face {
-    font-family: OpenSans;
+    font-family: OpenSans-Regular;
     src: url(../fonts/OpenSans-Regular.ttf);
-    font-family:OpenSans-Bold;
+    font-family: OpenSans-Bold;
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
     src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
     font-family: OpenSans-SemiBold;
-    font-family: url(../fonts/OpenSans-SemiBold.ttf);
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
 }

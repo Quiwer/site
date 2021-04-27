@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 
-body {    margin: 0px;
+body {
+    margin: 0px;
     padding: 0px;
     background-color: #ccc;
     color:#000;
@@ -38,9 +39,11 @@ header {
 }
 
 .logo {
+    font-family: OpenSans-Bold;
+    color: #212121;
     display: inline-block;
     align-items: center;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 25px;
     margin-left: 112px;
     margin-right: 334px;
@@ -55,10 +58,29 @@ header {
 }
 
 .link {
+    font-family: OpenSans-SemiBold;
     font-size: 20px;
-    font-weight: 600;
+    /* font-weight: 600; */
     letter-spacing: 1px;
 }
+
+
+
+.link:hover {
+    text-decoration: underline;
+    color: #00897b;
+}
+
+
+
+.link:active {
+    color: blue;
+}
+
+.link:visited {
+    color:blueviolet;
+}
+
 
 .search{
     width: 19px;
@@ -74,21 +96,55 @@ header {
     height:782px;
     background-position-y: -123px;
     padding-top:182px;
-
 }
 
 .promo_title {
     font-family: OpenSans-SemiBold;
+    letter-spacing: 3px;
     color: #fff;
-    font-weight: 400px;
-    font-size: 43px;
+    font-weight: normal;
+    font-size: 40px;
     text-align: center;
     margin-bottom:26px;
 }
 
 .promo_subtitle {
-    font-family: OpenSans;
+    font-family: OpenSans-SemiBold;
+    font-size: 15px;
+    letter-spacing: 1.1px;
     color: #fff;
     text-align: center;
+    margin-bottom: 108px;
+}
 
+.button_wrapper {
+    display:flex;
+    justify-content: space-between;
+    width: 465px;
+    height: 70px;
+    margin-left: 469px;
+    margin-bottom: 100px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 70px;
+    font-family: Roboto-Bold;
+    color: #f8f8f8;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 3px solid #f8f8f8;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #00897b;
+}
+
+.to_down {
+    margin-left: 691px;
 }
