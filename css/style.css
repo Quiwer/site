@@ -219,3 +219,43 @@ header {
     line-height: 22px;
     text-align: center;
 }
+
+
+/*              SERVICES                */
+
+.services {
+    height: 1414px;
+    background-color: #e4fdf9;
+    padding-top: 173px;
+    padding-bottom: 126px;
+}
+
+.services_header {
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.services_text {
+    min-height: 38px;
+    width: 620px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: OpenSans, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    margin-bottom: 112px;
+}
+
+.main_sevices_wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    height: 469px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
