@@ -42,7 +42,7 @@ header {
 }
 
 .logo {
-    font-family: OpenSans-Bold;
+    font-family: OpenSans-Bold, sans-serif;
     color: #212121;
     display: inline-block;
     align-items: center;
@@ -161,7 +161,7 @@ header {
 /*              ABOUT               */
 
 .about {
-    height: 804px;
+    height: 672px;
     padding-top: 125px;
     padding-bottom: 125px;
     background-color: #fff;
@@ -286,6 +286,7 @@ header {
     background-color: #00897b;
     padding-top: 58px;
     color:#fff;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.164);
 }
 
 .read_more {
@@ -317,6 +318,7 @@ header {
     height: 56px;
     margin: 0 auto;
     cursor:pointer;
+    color:#fff;
 }
 
 .colunm_warp:hover .services_colunm {
@@ -325,7 +327,6 @@ header {
 
 .colunm_warp:hover .hover_services_colunm {
     display: block;
-    /* background-color: #00897b; */
 }
 
 .services_icon {
