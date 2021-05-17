@@ -350,7 +350,7 @@ header {
     font-size: 30px;
     letter-spacing: 1.5px;
     text-align: center;
-    margin-bottom:36px
+    margin-bottom: 36px
 }
 
 .works_text {
@@ -359,7 +359,7 @@ header {
     width: 620px;
     height: 38px;
     font-family: OpenSans-Regular, sans-serif;
-    font-size:15px;
+    font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.75px;
     margin-bottom: 112px;
@@ -369,7 +369,7 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     height: 55px;
     width: 667px;
     margin-bottom: 119px;
@@ -428,7 +428,7 @@ header {
 
 .hover_text {
     font-family: OpenSans-Regular, sans-serif;
-    font-size:15px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -456,7 +456,7 @@ header {
 .view_all {
     margin: 0 auto;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
     width: 220px;
     height: 70px;
@@ -469,7 +469,7 @@ header {
 }
 
 .view_all:hover {
-    color:#fff;
+    color: #fff;
     background-color: #00897b;
     cursor: pointer;
 }
