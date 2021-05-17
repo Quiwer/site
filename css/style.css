@@ -186,7 +186,7 @@ header {
     margin-bottom: 112px;
 }
 
-.colunm_wrapper {
+.column_wrapper {
     display: flex;
     justify-content: space-between;
     width: 1170px;
@@ -195,7 +195,7 @@ header {
     /* min-height: 163px; */
 }
 
-.colunm {
+.column {
     /* display:flex; */
     width: 370px;
     min-height: 163px;
@@ -207,14 +207,14 @@ header {
     padding-bottom: 39px;
 }
 
-.colunm_header {
+.column_header {
     font-family: OpenSans-SemiBold, sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 26px;
 }
 
-.colunm_content {
+.column_content {
     padding-left: 58px;
     padding-right: 58px;
     font-family: OpenSans, sans-serif;
@@ -451,6 +451,14 @@ header {
     text-align: center;
     z-index: 3;
     padding-top: 148px;
+}
+
+.work_img:hover {
+    width: 370px;
+    height: 370px;
+    margin: 15px 15px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .view_all {
