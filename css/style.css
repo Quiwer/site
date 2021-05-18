@@ -401,16 +401,37 @@ header {
 .work_img {
     width: 370px;
     height: 370px;
-    margin: 15px 15px;
 }
 
-.work_img:hover {
+.hover_effect {
+    margin: 0 auto;
+    background-color: #000000;
+    display: inline-block;
     width: 370px;
     height: 370px;
     margin: 15px 15px;
-    background-color: rgb(0, 0, 0);
+    padding-bottom: 148px;
+}
+
+/* .hover_content {
+    display:none;
+} */
+
+/* .hover_header {
+    font-family: OpenSans-Semibold, sans-serif;
+    font-size: 20px;
+    text-align: center;
+} */
+
+.work_img:hover {
+    opacity: 0.6;
     cursor: pointer;
 }
+
+/* .work_img:hover .hover_content {
+    display: block;
+} */
+
 
 .view_all {
     margin: 0 auto;
