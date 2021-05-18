@@ -305,15 +305,26 @@ header {
     color: #fff;
 }
 
-.services_icon {
+.icon_wrapper {
     margin: 0 auto;
+    position: relative;
     width: 62px;
     height: 62px;
-    background: url('../img/ico/smartphone.png') 0 0 no-repeat;
     margin-bottom: 38px;
 }
 
+.services_icon {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
 .services_column:hover .services_icon {
+    display: none;
+}
+
+.services_column:hover .icon_wrapper {
     background: url('../img/ico/smartphone_white.png') 0 0 no-repeat;
     background-position-x: 3px;
 }
@@ -480,4 +491,114 @@ header {
     color: #fff;
     background-color: #00897b;
     cursor: pointer;
+}
+
+
+/*              PRICING PLAN                */
+
+.pricing {
+    /* margin: 0 auto; */
+    width: 1403px;
+    height: 1142px;
+    background-color: rgba(7, 14, 12, 0.096);
+    padding-top: 126px;
+    padding-bottom: 126px;
+}
+
+.pricing_header {
+    text-align: center;
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 29px;
+}
+
+.pricing_text {
+    width: 620px;
+    height: 38px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 126px;
+}
+
+.price_wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    height: 667px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.price_list {
+    position: relative;
+    width: 370px;
+    height: inherit;
+    background-color: #fff;
+    margin-bottom: 49px;
+}
+
+.coast_block {
+    height: 209px;
+    background-color: #3949ab;
+    padding-top: 48px;
+    margin-bottom: 49px;
+}
+
+.rate_header {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-bottom: 39px;
+}
+
+.price {
+    margin: 0 auto;
+    width: 173px;
+    height: 36px;
+}
+
+.dollar {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 25px;
+    vertical-align: top;
+}
+
+.coast {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+}
+
+.per_month {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+}
+
+.order_list {
+    padding: 0px;
+    margin: 0 auto;
+    list-style-type: none;
+    width: 178px;
+    height: 220px;
+}
+
+.price_text {
+    width: 104px;
+    height: 13px;
+    margin-bottom:10px;
+}
+
+.price_order {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.85px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 37px;
 }
