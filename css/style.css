@@ -390,17 +390,67 @@ header {
 }
 
 .img_main_wrapper {
-    margin: 0 auto;
+    height: 770px;
+    width: 1170px;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     margin-bottom: 129px;
 }
 
-.work_img {
+.img_row_wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 370px;
+}
+
+.img_wrapper {
+    position: relative;
     width: 370px;
     height: 370px;
+}
+
+.work_img {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    z-index: 1;
+}
+
+.hover_header {
+    font-family: OpenSans-Regular, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.hover_text {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.img_wrapper:hover {
+    cursor: pointer;
+}
+
+.img_wrapper:hover .balckout {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.651);
+    width: 370px;
+    height: 370px;
+    z-index: 2;
+}
+
+.img_wrapper:hover .hover_content {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    text-align: center;
+    z-index: 3;
+    padding-top: 148px;
 }
 
 .hover_effect {
@@ -413,25 +463,10 @@ header {
     padding-bottom: 148px;
 }
 
-/* .hover_content {
-    display:none;
-} */
-
-/* .hover_header {
-    font-family: OpenSans-Semibold, sans-serif;
-    font-size: 20px;
-    text-align: center;
-} */
-
 .work_img:hover {
     opacity: 0.6;
     cursor: pointer;
 }
-
-/* .work_img:hover .hover_content {
-    display: block;
-} */
-
 
 .view_all {
     margin: 0 auto;
@@ -445,7 +480,6 @@ header {
     letter-spacing: 1px;
     text-transform: uppercase;
     border: 2px solid #00897b;
-    /* padding: 28px 62px; */
 }
 
 .view_all:hover {
