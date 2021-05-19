@@ -15,6 +15,11 @@
 }
 
 @font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
     font-family: Roboto-Bold;
     src: url(../fonts/Roboto-Bold.ttf);
 }

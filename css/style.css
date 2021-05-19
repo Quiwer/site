@@ -67,23 +67,14 @@ header {
     letter-spacing: 1px;
 }
 
-
-
 .link:hover {
     text-decoration: underline;
     color: #00897b;
 }
 
-
-
 .link:active {
     color: blue;
 }
-
-/* .link:visited {
-    color:blueviolet;
-} */
-
 
 .search {
     width: 19px;
@@ -191,12 +182,9 @@ header {
     justify-content: space-between;
     width: 1170px;
     margin: 0 auto;
-    /* align-items: middle; */
-    /* min-height: 163px; */
 }
 
 .column {
-    /* display:flex; */
     width: 370px;
     min-height: 163px;
     text-align: center;
@@ -219,7 +207,6 @@ header {
     padding-right: 58px;
     font-family: OpenSans, sans-serif;
     font-size: 15px;
-    /* width: 254px; */
     line-height: 22px;
     text-align: center;
 }
@@ -280,7 +267,9 @@ header {
 .services_column:hover {
     background-color: #00897b;
     color: #fff;
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.164);
+    box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.164),
+                0px 10px 8px rgba(0, 0, 0, 0.164),
+                -10px 0px 8px rgba(0, 0, 0, 0.164);
 }
 
 .read_more {
@@ -305,15 +294,26 @@ header {
     color: #fff;
 }
 
-.services_icon {
+.icon_wrapper {
     margin: 0 auto;
+    position: relative;
     width: 62px;
     height: 62px;
-    background: url('../img/ico/smartphone.png') 0 0 no-repeat;
     margin-bottom: 38px;
 }
 
+.services_icon {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
 .services_column:hover .services_icon {
+    display: none;
+}
+
+.services_column:hover .icon_wrapper {
     background: url('../img/ico/smartphone_white.png') 0 0 no-repeat;
     background-position-x: 3px;
 }
@@ -486,4 +486,161 @@ header {
     color: #fff;
     background-color: #00897b;
     cursor: pointer;
+}
+
+
+/*              PRICING PLAN                */
+
+.pricing {
+    width: 1403px;
+    height: 1142px;
+    background-color: rgba(7, 14, 12, 0.096);
+    padding-top: 126px;
+    padding-bottom: 126px;
+}
+
+.pricing_header {
+    text-align: center;
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 29px;
+}
+
+.pricing_text {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    line-height: 22px;
+    width: 620px;
+    height: 38px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 126px;
+}
+
+.price_wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    height: 667px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.price_list {
+    width: 370px;
+    height: inherit;
+    background-color: #fff;
+
+}
+
+.coast_block {
+    height: 209px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    background-color: #3949ab;
+    padding-top: 48px;
+    margin-bottom: 49px;
+}
+
+.rate_header {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    margin-bottom: 9px;
+}
+
+.price {
+    margin: 0 auto;
+    width: 173px;
+    height: 36px;
+}
+
+.dollar {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 25px;
+    vertical-align: top;
+}
+
+.coast {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+}
+
+.per_month {
+    color: #fff;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+}
+
+.order_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0 auto;
+    list-style-type: none;
+    height: 220px;
+    margin-bottom: 66px;
+}
+
+.price_text {
+    display: inline-block;
+    width: 178px;
+    height: 28px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price_order {
+
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.85px;
+
+
+}
+
+.order_btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+    height: 60px;
+    border: 2px solid #000;
+}
+
+.order_link_free,
+.order_link_basic,
+.order_link_ultimates {
+    font-family: OpenSans-SemiBold, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.order_btn:hover {
+    border-color: #00897b;
+    background-color: #00897b;
+}
+
+.order_btn:hover .order_link_free,
+.order_btn:hover .order_link_basic,
+.order_btn:hover .order_link_ultimates {
+    color: #fff;
+}
+
+.price_list:hover {
+    box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.164),
+                0px 10px 8px rgba(0, 0, 0, 0.164),
+                -10px 0px 8px rgba(0, 0, 0, 0.164);
+
 }
