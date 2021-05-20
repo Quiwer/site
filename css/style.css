@@ -8,7 +8,7 @@ body {
     padding: 0px;
     background-color: #ccc;
     color: #000;
-    font-family: OpenSans-Regular, sans-serif;
+    font-family: OpenSans, sans-serif;
 }
 
 a {
@@ -42,7 +42,8 @@ header {
 }
 
 .logo {
-    font-family: OpenSans-Bold, sans-serif;
+    /* font-family: OpenSans-Bold, sans-serif; */
+    font-weight: 900;
     color: #212121;
     display: inline-block;
     align-items: center;
@@ -61,7 +62,8 @@ header {
 }
 
 .link {
-    font-family: OpenSans-SemiBold;
+    /* font-family: OpenSans-SemiBold; */
+    font-weight: 600;
     font-size: 20px;
     /* font-weight: 600; */
     letter-spacing: 1px;
@@ -94,17 +96,17 @@ header {
 }
 
 .promo_title {
-    font-family: OpenSans-SemiBold;
+    /* font-family: OpenSans-SemiBold; */
+    font-weight: 600;
     letter-spacing: 3px;
     color: #fff;
-    font-weight: normal;
     font-size: 40px;
     text-align: center;
     margin-bottom: 26px;
 }
 
 .promo_subtitle {
-    font-family: Open Sans Regular, sans-serif;
+    /* font-family: Open Sans Regular, sans-serif; */
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 1.1px;
@@ -128,7 +130,8 @@ header {
     justify-content: center;
     width: 220px;
     height: 70px;
-    font-family: Roboto-Bold;
+    /* font-family: Roboto-Bold; */
+    font-weight: 700;
     color: #f8f8f8;
     font-size: 20px;
     letter-spacing: 1px;
@@ -161,7 +164,8 @@ header {
 
 .about_header {
     text-align: center;
-    font-family: OpenSans-Bold, sans-serif;
+   /*  font-family: OpenSans-Bold, sans-serif; */
+   font-weight: 700;
     font-size: 30px;
     letter-spacing: 1.5px;
     margin-bottom: 36px;
@@ -172,7 +176,8 @@ header {
     min-height: 38px;
     margin: 0 auto;
     text-align: center;
-    font-family: OpenSans, sans-serif;
+    /* font-family: OpenSans, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 112px;
@@ -197,7 +202,8 @@ header {
 }
 
 .column_header {
-    font-family: OpenSans-SemiBold, sans-serif;
+    /* font-family: OpenSans-SemiBold, sans-serif; */
+    font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 26px;
@@ -206,7 +212,8 @@ header {
 .column_content {
     padding-left: 58px;
     padding-right: 58px;
-    font-family: OpenSans, sans-serif;
+    /* font-family: OpenSans, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     text-align: center;
@@ -223,7 +230,8 @@ header {
 }
 
 .services_header {
-    font-family: OpenSans-Bold, sans-serif;
+    /* font-family: OpenSans-Bold, sans-serif; */
+    font-weight: 700;
     font-size: 30px;
     letter-spacing: 1.5px;
     text-align: center;
@@ -235,7 +243,8 @@ header {
     width: 620px;
     text-align: center;
     margin: 0 auto;
-    font-family: OpenSans, sans-serif;
+   /*  font-family: OpenSans, sans-serif; */
+   font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.75px;
@@ -277,7 +286,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: OpenSans-Semibold, sans-serif;
+    /* font-family: OpenSans-Semibold, sans-serif; */
+    font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -330,7 +340,8 @@ header {
     margin: 0 auto;
     width: 271px;
     height: 90px;
-    font-family: OpenSans, sans-serif;
+   /*  font-family: OpenSans, sans-serif; */
+   font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 0.75px;
@@ -347,7 +358,8 @@ header {
 }
 
 .works_title {
-    font-family: OpenSans-Bold, sans-serif;
+    /* font-family: OpenSans-Bold, sans-serif; */
+    font-weight: 700;
     font-size: 30px;
     letter-spacing: 1.5px;
     text-align: center;
@@ -359,7 +371,8 @@ header {
     text-align: center;
     width: 620px;
     height: 38px;
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.75px;
@@ -378,7 +391,8 @@ header {
 
 .works .link_wrapper .link {
     padding: 12px 20px;
-    font-family: OpenSans-SemiBold, sans-serif;
+    /* font-family: OpenSans-SemiBold, sans-serif; */
+    font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
     border: solid 2px #00897b;
@@ -420,7 +434,8 @@ header {
 }
 
 .hover_header {
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     color: #fff;
     font-size: 20px;
     letter-spacing: 1px;
@@ -428,7 +443,8 @@ header {
 }
 
 .hover_text {
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     color: #fff;
 }
@@ -476,7 +492,8 @@ header {
     justify-content: space-around;
     width: 220px;
     height: 70px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
     font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -502,14 +519,16 @@ header {
 
 .pricing_header {
     text-align: center;
-    font-family: OpenSans-Bold, sans-serif;
+    /* font-family: OpenSans-Bold, sans-serif; */
+    font-weight: 700;
     font-size: 30px;
     letter-spacing: 1.5px;
     margin-bottom: 29px;
 }
 
 .pricing_text {
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.75px;
     line-height: 22px;
@@ -547,7 +566,8 @@ header {
 
 .rate_header {
     color: #fff;
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 25px;
     letter-spacing: 1.5px;
     margin-bottom: 9px;
@@ -559,23 +579,26 @@ header {
     height: 36px;
 }
 
-.dollar {
+.currency {
     color: #fff;
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 25px;
     vertical-align: top;
 }
 
 .coast {
     color: #fff;
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 50px;
     letter-spacing: 2.5px;
 }
 
 .per_month {
     color: #fff;
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 17px;
     letter-spacing: 0.85px;
 }
@@ -600,7 +623,8 @@ header {
 
 .price_order {
 
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 17px;
     line-height: 22px;
     letter-spacing: 0.85px;
@@ -621,7 +645,8 @@ header {
 .order_link_free,
 .order_link_basic,
 .order_link_ultimates {
-    font-family: OpenSans-SemiBold, sans-serif;
+    /* font-family: OpenSans-SemiBold, sans-serif; */
+    font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 22px;
@@ -657,7 +682,8 @@ header {
 
 .team_header {
     text-align: center;
-    font-family: OpenSans-Bold, sans-serif;
+    /* font-family: OpenSans-Bold, sans-serif; */
+    font-weight: 700;
     font-size: 30px;
     line-height: 22px;
     letter-spacing: 1.5px;
@@ -669,7 +695,8 @@ header {
     width: 620px;
     height: 38px;
     text-align: center;
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.45;
@@ -703,7 +730,8 @@ header {
 }
 
 .member_name {
-    font-family: OpenSans-SemiBold, sans-serif;
+    /* font-family: OpenSans-SemiBold, sans-serif; */
+    font-weight: 600;
     font-size: 20px;
     line-height: 22px;
     letter-spacing: 1px;
@@ -711,7 +739,8 @@ header {
 }
 
 .member_position {
-    font-family: OpenSans-Regular, sans-serif;
+    /* font-family: OpenSans-Regular, sans-serif; */
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.75px;

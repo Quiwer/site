@@ -9,7 +9,7 @@
 }
 
     @font-face {
-        font-family: 'OpenSans-Semibold';
+        font-family: 'OpenSans';
         src: url('../fonts/OpenSans-SemiBold.eot');
         src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/OpenSans-SemiBold.woff') format('woff'),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans';
     src: url('../fonts/OpenSans-Bold.eot');
     src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/OpenSans-Bold.woff') format('woff'),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-    font-family: 'OpenSans-Light';
+    font-family: 'OpenSans';
     src: url('../fonts/OpenSans-Light.eot');
     src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
     url('../fonts/OpenSans-Light.woff') format('woff'),
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto';
     src: url('../fonts/Roboto-Bold.eot');
     src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Roboto-Bold.woff') format('woff'),
