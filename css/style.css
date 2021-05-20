@@ -8,7 +8,7 @@ body {
     padding: 0px;
     background-color: #ccc;
     color: #000;
-    font-family: OpenSans;
+    font-family: OpenSans-Regular, sans-serif;
 }
 
 a {
@@ -104,7 +104,8 @@ header {
 }
 
 .promo_subtitle {
-    font-family: OpenSans-SemiBold;
+    font-family: Open Sans Regular, sans-serif;
+    font-weight: 400;
     font-size: 15px;
     letter-spacing: 1.1px;
     color: #fff;
@@ -268,8 +269,8 @@ header {
     background-color: #00897b;
     color: #fff;
     box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.164),
-                0px 10px 8px rgba(0, 0, 0, 0.164),
-                -10px 0px 8px rgba(0, 0, 0, 0.164);
+        0px 10px 8px rgba(0, 0, 0, 0.164),
+        -10px 0px 8px rgba(0, 0, 0, 0.164);
 }
 
 .read_more {
@@ -640,7 +641,109 @@ header {
 
 .price_list:hover {
     box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.164),
-                0px 10px 8px rgba(0, 0, 0, 0.164),
-                -10px 0px 8px rgba(0, 0, 0, 0.164);
+        0px 10px 8px rgba(0, 0, 0, 0.164),
+        -10px 0px 8px rgba(0, 0, 0, 0.164);
 
+}
+
+/*              OUR TEAM             */
+
+.team {
+    margin: 0 auto;
+    padding-top: 121px;
+    padding-bottom: 124px;
+    background-color: #fff;
+}
+
+.team_header {
+    text-align: center;
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 30px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+}
+
+.team_text {
+    margin: 0 auto;
+    width: 620px;
+    height: 38px;
+    text-align: center;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.45;
+    margin-bottom: 127px;
+}
+
+.profile_wrapper {
+    display: flex;
+    width: 1170px;
+    height: 421px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 126px;
+}
+
+.member_colunm {
+    width: inherit;
+    text-align: center;
+}
+
+.member_photo {
+    width: 370px;
+    height: 320px;
+    border-radius: 10px;
+    margin-bottom: 38px;
+}
+
+.member_photo:hover {
+    cursor: pointer;
+}
+
+.member_name {
+    font-family: OpenSans-SemiBold, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.member_position {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    margin-bottom: 29px;
+}
+
+.social_links_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    height: 50px;
+}
+
+.switched_dots_wrapper {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65px;
+    height: 15px;
+}
+
+.switched_dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #3949ab;
+    cursor: pointer;
+}
+
+.switched_dot:hover {
+    background-color: #00897b;
 }
