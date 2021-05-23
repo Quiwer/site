@@ -37,13 +37,3 @@
     font-weight: 300;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.eot');
-    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Bold.woff') format('woff'),
-    url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
