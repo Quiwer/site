@@ -62,19 +62,39 @@ header {
 }
 
 .link {
-    /* font-family: OpenSans-SemiBold; */
     font-weight: 600;
     font-size: 20px;
-    /* font-weight: 600; */
     letter-spacing: 1px;
+    color: #212121;
+}
+
+.link:link {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #212121;
+}
+
+.link:visited {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: violet;
 }
 
 .link:hover {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
     text-decoration: underline;
     color: #00897b;
 }
 
 .link:active {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+
     color: blue;
 }
 
@@ -396,6 +416,10 @@ header {
     font-size: 20px;
     text-transform: uppercase;
     border: solid 2px #00897b;
+}
+
+.works .link_wrapper .link {
+    color: #121212;
 }
 
 .works .link_wrapper .link:hover {
@@ -921,6 +945,7 @@ header {
     border-color: #00897b;
 }
 
+
 /*              CONTACT US                */
 
 .contact {
@@ -1037,6 +1062,7 @@ header {
     height: 84px;
     background-color: #ffffff;
     border-radius: 10px;
+    padding: 35px 20px;
 }
 
 .message {
@@ -1045,6 +1071,7 @@ header {
     background-color: #ffffff;
     border-radius: 10px;
     margin-bottom: 39px;
+    padding: 30px 20px;
 }
 
 .send_btn {
@@ -1053,4 +1080,24 @@ header {
     background-color: #ffffff;
     border-radius: 10px;
     margin-left: 810px;
+}
+
+.send_btn:hover {
+    cursor: pointer;
+}
+
+
+/*              THE BOTTOM                */
+
+.the_bottom {
+    height: 63px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright_text {
+    color: #212121;
+    font-weight: 900;
 }
